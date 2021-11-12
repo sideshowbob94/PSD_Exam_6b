@@ -33,5 +33,5 @@ class number_generator:
             ' please try again'
 
 
-example = number_generator(5,10,100)
+example = number_generator(5,1,6)
 example.generator()
