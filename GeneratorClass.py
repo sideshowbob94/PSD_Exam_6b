@@ -1,4 +1,5 @@
 import random
+import time
 
 class number_generator:
     def __init__(self, amount, minnr, maxnr):
@@ -22,6 +23,7 @@ class number_generator:
             c -= 1
             f += 1
             print(r)
+            time.sleep(1)
             assert self.minnr <= r <= self.maxnr, \
                 'a number lower or higher than allowed' \
                 'was generated. please try again'
